@@ -6,9 +6,9 @@ using namespace std;
 
 int main()
 {
-
+  //pone el limite a 1000 divisores
   const unsigned int MaxDivisors = 1000;
-
+  
   vector<unsigned int> smallest;
   smallest.push_back(0);
 
@@ -40,7 +40,6 @@ int main()
     unsigned int minDivisors=500;
 
     cout << smallest[minDivisors + 1] << endl;
- 
 
   return 0;
 }
