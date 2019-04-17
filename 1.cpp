@@ -1,3 +1,4 @@
+//hallar la suma de los multiplos de 3 o 5 menores a 1000
 #include <iostream>
 
 using namespace std;
