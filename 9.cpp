@@ -8,9 +8,11 @@ using namespace std;
 
 int main()
 {
+  //ninguno de los valores puede ser superior a la suma osea 1000 
   const int MaxPerimeter = 1000;
   const int NoSolution   =   0;
-
+  
+  
   vector<int> cache(MaxPerimeter + 1, NoSolution);
 
   for (int a = 1; a < MaxPerimeter; a++)
@@ -18,13 +20,15 @@ int main()
     {
       int c2 = a*a + b*b;
       int c = sqrt(c2);
+      //verifica si son iguales
       if (c*c != c2)
         continue;
 
       int sum = a + b + c;
       if (sum > MaxPerimeter)
         break;
-
+      
+      //halla la sumatoria y la almacena
       if (cache[sum] < a*b*c)
         cache[sum] = a*b*c;
     }
