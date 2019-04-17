@@ -11,6 +11,7 @@ int main()
 
     for (unsigned long long i = 1; i <= x; i++)
     {
+      //halla la suma y la suma de los cuadrados
       sum        += i;
       sumSquared += i*i;
     }
