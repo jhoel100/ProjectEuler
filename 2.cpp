@@ -1,3 +1,4 @@
+//hallar la suma de los primos de posicion par que no exceden 4000000
 #include<iostream>
 using namespace std;
 
