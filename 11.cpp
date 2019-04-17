@@ -1,3 +1,4 @@
+//halla el producto de los 3 valores en la matriz, de diversas maneras pero igual direccion
 #include <iostream>
 
 using namespace std;
