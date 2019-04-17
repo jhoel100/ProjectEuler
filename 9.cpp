@@ -12,7 +12,6 @@ int main()
   const int MaxPerimeter = 1000;
   const int NoSolution   =   0;
   
-  
   vector<int> cache(MaxPerimeter + 1, NoSolution);
 
   for (int a = 1; a < MaxPerimeter; a++)
