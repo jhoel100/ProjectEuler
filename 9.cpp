@@ -1,4 +1,5 @@
 //https://euler.stephan-brumme.com
+//hallar el triplete que sumado da 1000, encontrar el producto de sus valores
 #include <iostream>
 #include <vector>
 #include <cmath>
